@@ -23,5 +23,5 @@ function calculateWage() {
   document.getElementById('answer').innerHTML = 
     'Your pay will be: $' + taxedSalary.toFixed(2) + "."
   document.getElementById('taxes').innerHTML = 
-    'the government will take: $' + taxDeduction.toFixed(2) + "."
+    'The government will take: $' + taxDeduction.toFixed(2) + "."
 }
