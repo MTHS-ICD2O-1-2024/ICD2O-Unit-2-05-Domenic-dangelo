@@ -10,10 +10,11 @@
  * This function calculates wage.
  */
 function calculateWage() {
+  const INCOME_TAX = 0.18
   // input
   const hoursWorked = parseFloat(document.getElementById("hours-worked").value)
   const hourlyWage = parseFloat(document.getElementById("hourly-wage").value)
-  const INCOME_TAX = 0.18
+
 
   // process
   const taxedSalary = (hoursWorked * hourlyWage) * (1.00 - INCOME_TAX)
